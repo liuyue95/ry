@@ -1,0 +1,1561 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>设备管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/设备管理/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/设备管理/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u874" class="ax_default label">
+        <div id="u874_div" class=""></div>
+        <div id="u874_text" class="text ">
+          <p><span style="text-decoration:none;">&lt; 1&nbsp;&nbsp; 2&nbsp;&nbsp; 3 .. 98&nbsp;&nbsp; &gt;&nbsp; 到第&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 页，共&nbsp; 1097 条&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- 小窗口 (内联框架) -->
+      <div id="u875" class="ax_default ax_default_hidden" data-label="小窗口" style="display:none; visibility: hidden">
+        <iframe id="u875_input" data-label="小窗口" scrolling="no" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+
+      <!-- 状态 (下拉列表) -->
+      <div id="u876" class="ax_default _下拉列表" data-label="状态">
+        <div id="u876_div" class=""></div>
+        <select id="u876_input" class="u876_input">
+          <option class="u876_input_option" value="请选择设备状态">请选择设备状态</option>
+          <option class="u876_input_option" value="空闲">空闲</option>
+          <option class="u876_input_option" value="占用">占用</option>
+          <option class="u876_input_option" value="使用中">使用中</option>
+          <option class="u876_input_option" value="故障">故障</option>
+        </select>
+      </div>
+
+      <!-- 资产方 (下拉列表) -->
+      <div id="u877" class="ax_default _下拉列表" data-label="资产方">
+        <div id="u877_div" class=""></div>
+        <select id="u877_input" class="u877_input">
+          <option class="u877_input_option" value="所属资产方">所属资产方</option>
+          <option class="u877_input_option" value="瑞佑医疗">瑞佑医疗</option>
+          <option class="u877_input_option" value="合作单位资产方">合作单位资产方</option>
+        </select>
+      </div>
+
+      <!-- 类别 (下拉列表) -->
+      <div id="u878" class="ax_default _下拉列表" data-label="类别">
+        <div id="u878_div" class=""></div>
+        <select id="u878_input" class="u878_input">
+          <option class="u878_input_option" value="请选择设备类别">请选择设备类别</option>
+          <option class="u878_input_option" value="一代陪护床">一代陪护床</option>
+          <option class="u878_input_option" value="二代陪护床">二代陪护床</option>
+          <option class="u878_input_option" value="陪护椅">陪护椅</option>
+        </select>
+      </div>
+
+      <!-- 设备搜索框 (文本框) -->
+      <div id="u879" class="ax_default _文本框" data-label="设备搜索框" title="请输入设备编号或ID">
+        <div id="u879_div" class=""></div>
+        <input id="u879_input" type="text" value="请输入设备id或编号" class="u879_input" title="请输入设备编号或ID"/>
+      </div>
+
+      <!-- 添加 (矩形) -->
+      <div id="u880" class="ax_default _流程形状" data-label="添加">
+        <div id="u880_div" class=""></div>
+        <div id="u880_text" class="text ">
+          <p><span style="text-decoration:none;">添加设备</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u881" class="ax_default _五级标题">
+        <div id="u881_div" class=""></div>
+        <div id="u881_text" class="text ">
+          <p><span style="text-decoration:none;">下载导入模板</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u882" class="ax_default _表格">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u883" class="ax_default _单元格">
+          <img id="u883_img" class="img " src="images/设备管理/u883.png"/>
+          <div id="u883_text" class="text ">
+            <p><span style="text-decoration:none;">设备编号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u884" class="ax_default _单元格">
+          <img id="u884_img" class="img " src="images/设备管理/u883.png"/>
+          <div id="u884_text" class="text ">
+            <p><span style="text-decoration:none;">设备类别</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u885" class="ax_default _单元格">
+          <img id="u885_img" class="img " src="images/设备管理/u883.png"/>
+          <div id="u885_text" class="text ">
+            <p><span style="text-decoration:none;">设备轨迹</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u886" class="ax_default _单元格">
+          <img id="u886_img" class="img " src="images/设备管理/u886.png"/>
+          <div id="u886_text" class="text ">
+            <p><span style="text-decoration:none;">电量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u887" class="ax_default _单元格">
+          <img id="u887_img" class="img " src="images/设备管理/u887.png"/>
+          <div id="u887_text" class="text ">
+            <p><span style="text-decoration:none;">生产厂商</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u888" class="ax_default _单元格">
+          <img id="u888_img" class="img " src="images/设备管理/u887.png"/>
+          <div id="u888_text" class="text ">
+            <p><span style="text-decoration:none;">所属资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u889" class="ax_default _单元格">
+          <img id="u889_img" class="img " src="images/设备管理/u887.png"/>
+          <div id="u889_text" class="text ">
+            <p><span style="text-decoration:none;">所属医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u890" class="ax_default _单元格">
+          <img id="u890_img" class="img " src="images/设备管理/u887.png"/>
+          <div id="u890_text" class="text ">
+            <p><span style="text-decoration:none;">所属科室</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u891" class="ax_default _单元格">
+          <img id="u891_img" class="img " src="images/设备管理/u887.png"/>
+          <div id="u891_text" class="text ">
+            <p><span style="text-decoration:none;">所属运营中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u892" class="ax_default _单元格">
+          <img id="u892_img" class="img " src="images/设备管理/u887.png"/>
+          <div id="u892_text" class="text ">
+            <p><span style="text-decoration:none;">所属省代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u893" class="ax_default _单元格">
+          <img id="u893_img" class="img " src="images/设备管理/u893.png"/>
+          <div id="u893_text" class="text ">
+            <p><span style="text-decoration:none;">设备id</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u894" class="ax_default _单元格">
+          <img id="u894_img" class="img " src="images/设备管理/u893.png"/>
+          <div id="u894_text" class="text ">
+            <p><span style="text-decoration:none;">合同编号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u895" class="ax_default _单元格">
+          <img id="u895_img" class="img " src="images/设备管理/u895.png"/>
+          <div id="u895_text" class="text ">
+            <p><span style="text-decoration:none;">操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u896" class="ax_default _单元格">
+          <img id="u896_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u896_text" class="text ">
+            <p><span style="text-decoration:none;">RY00003025</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u897" class="ax_default _单元格">
+          <img id="u897_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u897_text" class="text ">
+            <p><span style="text-decoration:none;">一代陪护床</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u898" class="ax_default _单元格">
+          <img id="u898_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u898_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u899" class="ax_default _单元格">
+          <img id="u899_img" class="img " src="images/设备管理/u899.png"/>
+          <div id="u899_text" class="text ">
+            <p><span style="text-decoration:none;">84</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u900" class="ax_default _单元格">
+          <img id="u900_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u900_text" class="text ">
+            <p><span style="text-decoration:none;">深圳全智</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u901" class="ax_default _单元格">
+          <img id="u901_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u901_text" class="text ">
+            <p><span style="text-decoration:none;">瑞佑</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u902" class="ax_default _单元格">
+          <img id="u902_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u902_text" class="text ">
+            <p><span style="text-decoration:none;">郸城中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u903" class="ax_default _单元格">
+          <img id="u903_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u903_text" class="text ">
+            <p><span style="text-decoration:none;">妇产科</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u904" class="ax_default _单元格">
+          <img id="u904_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u904_text" class="text ">
+            <p><span style="text-decoration:none;">河南宏江医疗器械有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u905" class="ax_default _单元格">
+          <img id="u905_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u905_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u906" class="ax_default _单元格">
+          <img id="u906_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u906_text" class="text ">
+            <p><span style="text-decoration:none;">687010035595</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u907" class="ax_default _单元格">
+          <img id="u907_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u907_text" class="text ">
+            <p><span style="text-decoration:none;">HT1544536235938</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u908" class="ax_default _单元格">
+          <img id="u908_img" class="img " src="images/设备管理/u908.png"/>
+          <div id="u908_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u909" class="ax_default _单元格">
+          <img id="u909_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u909_text" class="text ">
+            <p><span style="text-decoration:none;">RY00003020</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u910" class="ax_default _单元格">
+          <img id="u910_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u910_text" class="text ">
+            <p><span style="text-decoration:none;">一代陪护床</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u911" class="ax_default _单元格">
+          <img id="u911_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u911_text" class="text ">
+            <p><span style="text-decoration:none;">查看轨迹</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u912" class="ax_default _单元格">
+          <img id="u912_img" class="img " src="images/设备管理/u912.png"/>
+          <div id="u912_text" class="text ">
+            <p><span style="text-decoration:none;">75</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u913" class="ax_default _单元格">
+          <img id="u913_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u913_text" class="text ">
+            <p><span style="text-decoration:none;">郑州索泰</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u914" class="ax_default _单元格">
+          <img id="u914_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u914_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u915" class="ax_default _单元格">
+          <img id="u915_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u915_text" class="text ">
+            <p><span style="text-decoration:none;">漯河中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u916" class="ax_default _单元格">
+          <img id="u916_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u916_text" class="text ">
+            <p><span style="text-decoration:none;">重症陪护室</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u917" class="ax_default _单元格">
+          <img id="u917_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u917_text" class="text ">
+            <p><span style="text-decoration:none;">思诺鑫（北京）科技有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u918" class="ax_default _单元格">
+          <img id="u918_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u918_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u919" class="ax_default _单元格">
+          <img id="u919_img" class="img " src="images/设备管理/u919.png"/>
+          <div id="u919_text" class="text ">
+            <p><span style="text-decoration:none;">063076387105</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u920" class="ax_default _单元格">
+          <img id="u920_img" class="img " src="images/设备管理/u919.png"/>
+          <div id="u920_text" class="text ">
+            <p><span style="text-decoration:none;">HT1545477952913</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u921" class="ax_default _单元格">
+          <img id="u921_img" class="img " src="images/设备管理/u921.png"/>
+          <div id="u921_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u922" class="ax_default _单元格">
+          <img id="u922_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u922_text" class="text ">
+            <p><span style="text-decoration:none;">RY00005087</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u923" class="ax_default _单元格">
+          <img id="u923_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u923_text" class="text ">
+            <p><span style="text-decoration:none;">陪护椅</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u924" class="ax_default _单元格">
+          <img id="u924_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u924_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u925" class="ax_default _单元格">
+          <img id="u925_img" class="img " src="images/设备管理/u899.png"/>
+          <div id="u925_text" class="text ">
+            <p><span style="text-decoration:none;">31</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u926" class="ax_default _单元格">
+          <img id="u926_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u926_text" class="text ">
+            <p><span style="text-decoration:none;">郑州索泰</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u927" class="ax_default _单元格">
+          <img id="u927_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u927_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u928" class="ax_default _单元格">
+          <img id="u928_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u928_text" class="text ">
+            <p><span style="text-decoration:none;">郸城中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u929" class="ax_default _单元格">
+          <img id="u929_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u929_text" class="text ">
+            <p><span style="text-decoration:none;">婴幼儿科</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u930" class="ax_default _单元格">
+          <img id="u930_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u930_text" class="text ">
+            <p><span style="text-decoration:none;">河南宏江医疗器械有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u931" class="ax_default _单元格">
+          <img id="u931_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u931_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u932" class="ax_default _单元格">
+          <img id="u932_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u932_text" class="text ">
+            <p><span style="text-decoration:none;">675128796571</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u933" class="ax_default _单元格">
+          <img id="u933_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u933_text" class="text ">
+            <p><span style="text-decoration:none;">HT1544536235938</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u934" class="ax_default _单元格">
+          <img id="u934_img" class="img " src="images/设备管理/u908.png"/>
+          <div id="u934_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u935" class="ax_default _单元格">
+          <img id="u935_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u935_text" class="text ">
+            <p><span style="text-decoration:none;">RY00005027</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u936" class="ax_default _单元格">
+          <img id="u936_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u936_text" class="text ">
+            <p><span style="text-decoration:none;">二代陪护床</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u937" class="ax_default _单元格">
+          <img id="u937_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u937_text" class="text ">
+            <p><span style="text-decoration:none;">查看轨迹</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u938" class="ax_default _单元格">
+          <img id="u938_img" class="img " src="images/设备管理/u912.png"/>
+          <div id="u938_text" class="text ">
+            <p><span style="text-decoration:none;">100</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u939" class="ax_default _单元格">
+          <img id="u939_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u939_text" class="text ">
+            <p><span style="text-decoration:none;">郑州索泰</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u940" class="ax_default _单元格">
+          <img id="u940_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u940_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u941" class="ax_default _单元格">
+          <img id="u941_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u941_text" class="text ">
+            <p><span style="text-decoration:none;">漯河中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u942" class="ax_default _单元格">
+          <img id="u942_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u942_text" class="text ">
+            <p><span style="text-decoration:none;">脑疾病科室</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u943" class="ax_default _单元格">
+          <img id="u943_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u943_text" class="text ">
+            <p><span style="text-decoration:none;">思诺鑫（北京）科技有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u944" class="ax_default _单元格">
+          <img id="u944_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u944_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u945" class="ax_default _单元格">
+          <img id="u945_img" class="img " src="images/设备管理/u919.png"/>
+          <div id="u945_text" class="text ">
+            <p><span style="text-decoration:none;">368746598774</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u946" class="ax_default _单元格">
+          <img id="u946_img" class="img " src="images/设备管理/u919.png"/>
+          <div id="u946_text" class="text ">
+            <p><span style="text-decoration:none;">HT1545477952913</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u947" class="ax_default _单元格">
+          <img id="u947_img" class="img " src="images/设备管理/u921.png"/>
+          <div id="u947_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u948" class="ax_default _单元格">
+          <img id="u948_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u948_text" class="text ">
+            <p><span style="text-decoration:none;">RY00004420</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u949" class="ax_default _单元格">
+          <img id="u949_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u949_text" class="text ">
+            <p><span style="text-decoration:none;">陪护椅</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u950" class="ax_default _单元格">
+          <img id="u950_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u950_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u951" class="ax_default _单元格">
+          <img id="u951_img" class="img " src="images/设备管理/u899.png"/>
+          <div id="u951_text" class="text ">
+            <p><span style="text-decoration:none;">26</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u952" class="ax_default _单元格">
+          <img id="u952_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u952_text" class="text ">
+            <p><span style="text-decoration:none;">深圳全智</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u953" class="ax_default _单元格">
+          <img id="u953_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u953_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u954" class="ax_default _单元格">
+          <img id="u954_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u954_text" class="text ">
+            <p><span style="text-decoration:none;">郸城中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u955" class="ax_default _单元格">
+          <img id="u955_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u955_text" class="text ">
+            <p><span style="text-decoration:none;">妇产科</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u956" class="ax_default _单元格">
+          <img id="u956_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u956_text" class="text ">
+            <p><span style="text-decoration:none;">河南宏江医疗器械有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u957" class="ax_default _单元格">
+          <img id="u957_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u957_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u958" class="ax_default _单元格">
+          <img id="u958_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u958_text" class="text ">
+            <p><span style="text-decoration:none;">659878777897</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u959" class="ax_default _单元格">
+          <img id="u959_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u959_text" class="text ">
+            <p><span style="text-decoration:none;">HT1544536235938</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u960" class="ax_default _单元格">
+          <img id="u960_img" class="img " src="images/设备管理/u908.png"/>
+          <div id="u960_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u961" class="ax_default _单元格">
+          <img id="u961_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u961_text" class="text ">
+            <p><span style="text-decoration:none;">RY00004720</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u962" class="ax_default _单元格">
+          <img id="u962_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u962_text" class="text ">
+            <p><span style="text-decoration:none;">陪护椅</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u963" class="ax_default _单元格">
+          <img id="u963_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u963_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u964" class="ax_default _单元格">
+          <img id="u964_img" class="img " src="images/设备管理/u912.png"/>
+          <div id="u964_text" class="text ">
+            <p><span style="text-decoration:none;">88</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u965" class="ax_default _单元格">
+          <img id="u965_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u965_text" class="text ">
+            <p><span style="text-decoration:none;">郑州索泰</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u966" class="ax_default _单元格">
+          <img id="u966_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u966_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u967" class="ax_default _单元格">
+          <img id="u967_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u967_text" class="text ">
+            <p><span style="text-decoration:none;">漯河中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u968" class="ax_default _单元格">
+          <img id="u968_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u968_text" class="text ">
+            <p><span style="text-decoration:none;">外科病区</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u969" class="ax_default _单元格">
+          <img id="u969_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u969_text" class="text ">
+            <p><span style="text-decoration:none;">思诺鑫（北京）科技有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u970" class="ax_default _单元格">
+          <img id="u970_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u970_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u971" class="ax_default _单元格">
+          <img id="u971_img" class="img " src="images/设备管理/u919.png"/>
+          <div id="u971_text" class="text ">
+            <p><span style="text-decoration:none;">063076387105</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u972" class="ax_default _单元格">
+          <img id="u972_img" class="img " src="images/设备管理/u919.png"/>
+          <div id="u972_text" class="text ">
+            <p><span style="text-decoration:none;">HT1545477952913</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u973" class="ax_default _单元格">
+          <img id="u973_img" class="img " src="images/设备管理/u921.png"/>
+          <div id="u973_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u974" class="ax_default _单元格">
+          <img id="u974_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u974_text" class="text ">
+            <p><span style="text-decoration:none;">RY00003240</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u975" class="ax_default _单元格">
+          <img id="u975_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u975_text" class="text ">
+            <p><span style="text-decoration:none;">一代陪护床</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u976" class="ax_default _单元格">
+          <img id="u976_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u976_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u977" class="ax_default _单元格">
+          <img id="u977_img" class="img " src="images/设备管理/u899.png"/>
+          <div id="u977_text" class="text ">
+            <p><span style="text-decoration:none;">48</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u978" class="ax_default _单元格">
+          <img id="u978_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u978_text" class="text ">
+            <p><span style="text-decoration:none;">深圳全智</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u979" class="ax_default _单元格">
+          <img id="u979_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u979_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u980" class="ax_default _单元格">
+          <img id="u980_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u980_text" class="text ">
+            <p><span style="text-decoration:none;">郸城中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u981" class="ax_default _单元格">
+          <img id="u981_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u981_text" class="text ">
+            <p><span style="text-decoration:none;">糖尿病肾病科</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u982" class="ax_default _单元格">
+          <img id="u982_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u982_text" class="text ">
+            <p><span style="text-decoration:none;">河南宏江医疗器械有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u983" class="ax_default _单元格">
+          <img id="u983_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u983_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u984" class="ax_default _单元格">
+          <img id="u984_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u984_text" class="text ">
+            <p><span style="text-decoration:none;">254787454563</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u985" class="ax_default _单元格">
+          <img id="u985_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u985_text" class="text ">
+            <p><span style="text-decoration:none;">HT1544536235938</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u986" class="ax_default _单元格">
+          <img id="u986_img" class="img " src="images/设备管理/u908.png"/>
+          <div id="u986_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u987" class="ax_default _单元格">
+          <img id="u987_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u987_text" class="text ">
+            <p><span style="text-decoration:none;">RY00008720</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u988" class="ax_default _单元格">
+          <img id="u988_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u988_text" class="text ">
+            <p><span style="text-decoration:none;">二代陪护床</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u989" class="ax_default _单元格">
+          <img id="u989_img" class="img " src="images/设备管理/u909.png"/>
+          <div id="u989_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u990" class="ax_default _单元格">
+          <img id="u990_img" class="img " src="images/设备管理/u912.png"/>
+          <div id="u990_text" class="text ">
+            <p><span style="text-decoration:none;">90</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u991" class="ax_default _单元格">
+          <img id="u991_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u991_text" class="text ">
+            <p><span style="text-decoration:none;">郑州索泰</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u992" class="ax_default _单元格">
+          <img id="u992_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u992_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u993" class="ax_default _单元格">
+          <img id="u993_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u993_text" class="text ">
+            <p><span style="text-decoration:none;">漯河中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u994" class="ax_default _单元格">
+          <img id="u994_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u994_text" class="text ">
+            <p><span style="text-decoration:none;">外科五病区 2A 8层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u995" class="ax_default _单元格">
+          <img id="u995_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u995_text" class="text ">
+            <p><span style="text-decoration:none;">思诺鑫（北京）科技有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u996" class="ax_default _单元格">
+          <img id="u996_img" class="img " src="images/设备管理/u913.png"/>
+          <div id="u996_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u997" class="ax_default _单元格">
+          <img id="u997_img" class="img " src="images/设备管理/u919.png"/>
+          <div id="u997_text" class="text ">
+            <p><span style="text-decoration:none;">066576387105</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u998" class="ax_default _单元格">
+          <img id="u998_img" class="img " src="images/设备管理/u919.png"/>
+          <div id="u998_text" class="text ">
+            <p><span style="text-decoration:none;">HT1545477952913</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u999" class="ax_default _单元格">
+          <img id="u999_img" class="img " src="images/设备管理/u921.png"/>
+          <div id="u999_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1000" class="ax_default _单元格">
+          <img id="u1000_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u1000_text" class="text ">
+            <p><span style="text-decoration:none;">RY00001478</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1001" class="ax_default _单元格">
+          <img id="u1001_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u1001_text" class="text ">
+            <p><span style="text-decoration:none;">二代陪护床</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1002" class="ax_default _单元格">
+          <img id="u1002_img" class="img " src="images/设备管理/u896.png"/>
+          <div id="u1002_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1003" class="ax_default _单元格">
+          <img id="u1003_img" class="img " src="images/设备管理/u899.png"/>
+          <div id="u1003_text" class="text ">
+            <p><span style="text-decoration:none;">53</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1004" class="ax_default _单元格">
+          <img id="u1004_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u1004_text" class="text ">
+            <p><span style="text-decoration:none;">深圳全智</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1005" class="ax_default _单元格">
+          <img id="u1005_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u1005_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1006" class="ax_default _单元格">
+          <img id="u1006_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u1006_text" class="text ">
+            <p><span style="text-decoration:none;">郸城中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1007" class="ax_default _单元格">
+          <img id="u1007_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u1007_text" class="text ">
+            <p><span style="text-decoration:none;">骨科</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1008" class="ax_default _单元格">
+          <img id="u1008_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u1008_text" class="text ">
+            <p><span style="text-decoration:none;">河南宏江医疗器械有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1009" class="ax_default _单元格">
+          <img id="u1009_img" class="img " src="images/设备管理/u900.png"/>
+          <div id="u1009_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1010" class="ax_default _单元格">
+          <img id="u1010_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u1010_text" class="text ">
+            <p><span style="text-decoration:none;">698741035595</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1011" class="ax_default _单元格">
+          <img id="u1011_img" class="img " src="images/设备管理/u906.png"/>
+          <div id="u1011_text" class="text ">
+            <p><span style="text-decoration:none;">HT1544536235938</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1012" class="ax_default _单元格">
+          <img id="u1012_img" class="img " src="images/设备管理/u908.png"/>
+          <div id="u1012_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1013" class="ax_default _单元格">
+          <img id="u1013_img" class="img " src="images/设备管理/u1013.png"/>
+          <div id="u1013_text" class="text ">
+            <p><span style="text-decoration:none;">RY00006242</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1014" class="ax_default _单元格">
+          <img id="u1014_img" class="img " src="images/设备管理/u1013.png"/>
+          <div id="u1014_text" class="text ">
+            <p><span style="text-decoration:none;">陪护椅</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1015" class="ax_default _单元格">
+          <img id="u1015_img" class="img " src="images/设备管理/u1013.png"/>
+          <div id="u1015_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1016" class="ax_default _单元格">
+          <img id="u1016_img" class="img " src="images/设备管理/u1016.png"/>
+          <div id="u1016_text" class="text ">
+            <p><span style="text-decoration:none;">86</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1017" class="ax_default _单元格">
+          <img id="u1017_img" class="img " src="images/设备管理/u1017.png"/>
+          <div id="u1017_text" class="text ">
+            <p><span style="text-decoration:none;">郑州索泰</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1018" class="ax_default _单元格">
+          <img id="u1018_img" class="img " src="images/设备管理/u1017.png"/>
+          <div id="u1018_text" class="text ">
+            <p><span style="text-decoration:none;">合作单位资产方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1019" class="ax_default _单元格">
+          <img id="u1019_img" class="img " src="images/设备管理/u1017.png"/>
+          <div id="u1019_text" class="text ">
+            <p><span style="text-decoration:none;">漯河中医院</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1020" class="ax_default _单元格">
+          <img id="u1020_img" class="img " src="images/设备管理/u1017.png"/>
+          <div id="u1020_text" class="text ">
+            <p><span style="text-decoration:none;">外科病区</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1021" class="ax_default _单元格">
+          <img id="u1021_img" class="img " src="images/设备管理/u1017.png"/>
+          <div id="u1021_text" class="text ">
+            <p><span style="text-decoration:none;">思诺鑫（北京）科技有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1022" class="ax_default _单元格">
+          <img id="u1022_img" class="img " src="images/设备管理/u1017.png"/>
+          <div id="u1022_text" class="text ">
+            <p><span style="text-decoration:none;">河南代理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1023" class="ax_default _单元格">
+          <img id="u1023_img" class="img " src="images/设备管理/u1023.png"/>
+          <div id="u1023_text" class="text ">
+            <p><span style="text-decoration:none;">063076387558</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1024" class="ax_default _单元格">
+          <img id="u1024_img" class="img " src="images/设备管理/u1023.png"/>
+          <div id="u1024_text" class="text ">
+            <p><span style="text-decoration:none;">HT1545477952913</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1025" class="ax_default _单元格">
+          <img id="u1025_img" class="img " src="images/设备管理/u1025.png"/>
+          <div id="u1025_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 医院 (下拉列表) -->
+      <div id="u1026" class="ax_default _下拉列表" data-label="医院">
+        <div id="u1026_div" class=""></div>
+        <select id="u1026_input" class="u1026_input">
+          <option class="u1026_input_option" value="所属医院">所属医院</option>
+          <option class="u1026_input_option" value="郸城人民医院">郸城人民医院</option>
+          <option class="u1026_input_option" value="漯河中医院">漯河中医院</option>
+        </select>
+      </div>
+
+      <!-- 厂商 (下拉列表) -->
+      <div id="u1027" class="ax_default _下拉列表" data-label="厂商">
+        <div id="u1027_div" class=""></div>
+        <select id="u1027_input" class="u1027_input">
+          <option class="u1027_input_option" value="生产商">生产商</option>
+          <option class="u1027_input_option" value="深圳全智锁平台">深圳全智锁平台</option>
+          <option class="u1027_input_option" value="郑州索泰">郑州索泰</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1028" class="ax_default flow_shape">
+        <img id="u1028_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1028_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1029" class="ax_default flow_shape">
+        <img id="u1029_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1029_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1030" class="ax_default flow_shape">
+        <img id="u1030_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1030_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1031" class="ax_default flow_shape">
+        <img id="u1031_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1031_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1032" class="ax_default flow_shape">
+        <img id="u1032_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1032_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1033" class="ax_default flow_shape">
+        <img id="u1033_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1033_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1034" class="ax_default flow_shape">
+        <img id="u1034_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1034_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1035" class="ax_default flow_shape">
+        <img id="u1035_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1035_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1036" class="ax_default flow_shape">
+        <img id="u1036_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1036_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1037" class="ax_default flow_shape">
+        <img id="u1037_img" class="img " src="images/设备管理/u1028.svg"/>
+        <div id="u1037_text" class="text ">
+          <p><span style="text-decoration:none;">查看轨迹</span></p>
+        </div>
+      </div>
+
+      <!-- 省代 (下拉列表) -->
+      <div id="u1038" class="ax_default _下拉列表" data-label="省代">
+        <div id="u1038_div" class=""></div>
+        <select id="u1038_input" class="u1038_input">
+          <option class="u1038_input_option" value="所属省代理">所属省代理</option>
+          <option class="u1038_input_option" value="河南代理">河南代理</option>
+          <option class="u1038_input_option" value="湖北代理">湖北代理</option>
+        </select>
+      </div>
+
+      <!-- 科室 (下拉列表) -->
+      <div id="u1039" class="ax_default _下拉列表" data-label="科室">
+        <div id="u1039_div" class=""></div>
+        <select id="u1039_input" class="u1039_input">
+          <option class="u1039_input_option" value="所属科室">所属科室</option>
+          <option class="u1039_input_option" value="妇产科">妇产科</option>
+          <option class="u1039_input_option" value="重症陪护室">重症陪护室</option>
+        </select>
+      </div>
+
+      <!-- 运营中心 (下拉列表) -->
+      <div id="u1040" class="ax_default _下拉列表" data-label="运营中心">
+        <div id="u1040_div" class=""></div>
+        <select id="u1040_input" class="u1040_input">
+          <option class="u1040_input_option" value="所属运营中心">所属运营中心</option>
+          <option class="u1040_input_option" value="思诺鑫（北京）科技有限公司">思诺鑫（北京）科技有限公司</option>
+          <option class="u1040_input_option" value="河南宏江医疗器械有限公司">河南宏江医疗器械有限公司</option>
+        </select>
+      </div>
+
+      <!-- 电量 (下拉列表) -->
+      <div id="u1041" class="ax_default _下拉列表" data-label="电量">
+        <div id="u1041_div" class=""></div>
+        <select id="u1041_input" class="u1041_input">
+          <option class="u1041_input_option" selected value="设备电量">设备电量</option>
+          <option class="u1041_input_option" value="≤90%">≤90%</option>
+          <option class="u1041_input_option" value="≤60%">≤60%</option>
+          <option class="u1041_input_option" value="≤30%">≤30%</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1042" class="ax_default box_1">
+        <div id="u1042_div" class=""></div>
+        <div id="u1042_text" class="text ">
+          <p><span style="text-decoration:none;">搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1043" class="ax_default box_1">
+        <div id="u1043_div" class=""></div>
+        <div id="u1043_text" class="text ">
+          <p><span style="text-decoration:none;">重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1044" class="ax_default box_1">
+        <div id="u1044_div" class=""></div>
+        <div id="u1044_text" class="text ">
+          <p><span style="text-decoration:none;">导出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1045" class="ax_default flow_shape">
+        <img id="u1045_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1045_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u1046" class="ax_default radio_button">
+        <label for="u1046_input" style="position: absolute; left: 0px;">
+          <img id="u1046_img" class="img " src="images/设备管理/u1046.svg"/>
+          <div id="u1046_text" class="text ">
+            <p><span style="text-decoration:none;">是否上架</span></p>
+          </div>
+        </label>
+        <input id="u1046_input" type="radio" value="radio" name="u1046"/>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1047" class="ax_default flow_shape">
+        <img id="u1047_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1047_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1048" class="ax_default flow_shape">
+        <img id="u1048_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1048_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1049" class="ax_default flow_shape">
+        <img id="u1049_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1049_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1050" class="ax_default flow_shape">
+        <img id="u1050_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1050_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1051" class="ax_default flow_shape">
+        <img id="u1051_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1051_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1052" class="ax_default flow_shape">
+        <img id="u1052_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1052_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1053" class="ax_default flow_shape">
+        <img id="u1053_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1053_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1054" class="ax_default flow_shape">
+        <img id="u1054_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1054_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (斜角矩形) -->
+      <div id="u1055" class="ax_default flow_shape">
+        <img id="u1055_img" class="img " src="images/总收入统计/u147.svg"/>
+        <div id="u1055_text" class="text ">
+          <p><span style="text-decoration:none;">编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u1056" class="ax_default _文本框">
+        <div id="u1056_div" class=""></div>
+        <input id="u1056_input" type="file" value="导入设备" class="u1056_input"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1057" class="ax_default _三级标题">
+        <div id="u1057_div" class=""></div>
+        <div id="u1057_text" class="text ">
+          <p><span style="text-decoration:none;"># 统计：设备数量 </span><span style="text-decoration:none;color:#EC808D;">1097 </span><span style="text-decoration:none;">台，故障 </span><span style="text-decoration:none;color:#EC808D;">60 </span><span style="text-decoration:none;">台。&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u1058" class="ax_default _文本框">
+        <div id="u1058_div" class=""></div>
+        <input id="u1058_input" type="text" value="&nbsp;&nbsp; 1" class="u1058_input"/>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u1059" class="ax_default _下拉列表">
+        <div id="u1059_div" class=""></div>
+        <select id="u1059_input" class="u1059_input">
+          <option class="u1059_input_option" selected value="10条/页">10条/页</option>
+          <option class="u1059_input_option" value="20条/页">20条/页</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u1060" class="ax_default line">
+        <img id="u1060_img" class="img " src="images/总收入统计/u146.svg"/>
+        <div id="u1060_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
